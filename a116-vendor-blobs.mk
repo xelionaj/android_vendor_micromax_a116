@@ -76,6 +76,10 @@ PRODUCT_COPY_FILES += \
     vendor/micromax/a116/proprietary/etc/firmware/mt6628/mt6628_fm_v5_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v5_coeff.bin \
     vendor/micromax/a116/proprietary/etc/firmware/mt6628/mt6628_fm_v5_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v5_patch.bin \
     vendor/micromax/a116/proprietary/etc/firmware/touchpanel/tinno-fts-update-0514.ekt:system/etc/firmware/touchpanel/tinno-fts-update-0514.ekt \
+    vendor/micromax/a116/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/micromax/a116/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+
+
     vendor/micromax/a116/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/micromax/a116/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/micromax/a116/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
@@ -89,20 +93,20 @@ PRODUCT_COPY_FILES += \
     vendor/micromax/a116/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/micromax/a116/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
 
-
-
-
     vendor/micromax/a116/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/micromax/a116/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/micromax/a116/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so \
     vendor/micromax/a116/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/micromax/a116/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so \
-    vendor/micromax/a116/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
     vendor/micromax/a116/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/micromax/a116/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     vendor/micromax/a116/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/micromax/a116/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/micromax/a116/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/micromax/a116/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+    vendor/micromax/a116/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+
+
     vendor/micromax/a116/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/micromax/a116/proprietary/lib/libdpframework_os.so:system/lib/libdpframework_os.so \
     vendor/micromax/a116/proprietary/lib/libdpframework_plat.so:system/lib/libdpframework_plat.so \
