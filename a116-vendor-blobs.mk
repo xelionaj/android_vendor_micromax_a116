@@ -42,6 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/micromax/a116/proprietary/bin/thermal:system/bin/thermal \
     vendor/micromax/a116/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/micromax/a116/proprietary/bin/wlan_loader:system/bin/wlan_loader \
+    vendor/micromax/a116/proprietary/bin/dhpcd:system/bin/dhcpcd \
+    vendor/micromax/a116/proprietary/bin/wpa_cli:system/bin/wpa_cli \
     vendor/micromax/a116/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
     vendor/micromax/a116/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
     vendor/micromax/a116/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
@@ -81,6 +83,15 @@ PRODUCT_COPY_FILES += \
     vendor/micromax/a116/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/micromax/a116/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/micromax/a116/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
+    vendor/micromax/a116/proprietary/lib/libwapi.so:system/lib/libwapi.so \
+    vendor/micromax/a116/proprietary/lib/libaed.so:system/lib/libaed.so \
+    vendor/micromax/a116/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
+    vendor/micromax/a116/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/micromax/a116/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
+
+
+
+
     vendor/micromax/a116/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/micromax/a116/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/micromax/a116/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so \
